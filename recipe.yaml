@@ -1,0 +1,17 @@
+$engine: 3
+$onesync: on
+name: VSRP 
+description: Recipe for the base resources required to run a minimal FiveM server.
+
+tasks: 
+  # Download default CFX resources
+  - action: download_file
+    src: https://drive.google.com/drive/folders/1Lt3ro8coKaZA1-4IQlrx5ywmcjdvqxjn?usp=sharing
+    ref: master
+    subpath: resources
+    dest: ./resources
+
+  # Download default server.cfg for FiveM
+  - action: download_file
+    url: https://github.com/Nebunda/vsrp-recipe/blob/main/server.cfg
+    path: ./server.cfg
