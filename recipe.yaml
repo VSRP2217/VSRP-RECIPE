@@ -5,7 +5,7 @@ description: Recipe for the base resources required to run a minimal FiveM serve
 
 tasks: 
   # Download default CFX resources
-  - action: download_file
+  - action: download_github
     src: https://drive.google.com/drive/folders/1Lt3ro8coKaZA1-4IQlrx5ywmcjdvqxjn?usp=sharing
     ref: master
     subpath: resources
