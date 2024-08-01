@@ -13,5 +13,5 @@ tasks:
 
   # Download default server.cfg for FiveM
   - action: download_file
-    url: https://github.com/Nebunda/vsrp-recipe/blob/main/server.cfg
+    url: https://github.com/VSRP2217/VSRP-RECIPE/blob/main/server.cfg
     path: ./server.cfg
